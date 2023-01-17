@@ -228,9 +228,11 @@ body {
   line-height: 1.17;
   margin-bottom: 16px;
 }
+.section-address {
+  padding-top: 60px;
+}
 .address-section {
   background-color: var(--bg-color);
-  padding: 60px 0;
   text-align: left;
 }
 
@@ -275,7 +277,7 @@ body {
   margin-bottom: 28px;
 }
 .address-icon {
-  fill: var(--icon-color);
+  fill: currentColor;
   margin-right: 10px;
 }
 .web-logo-footer {
@@ -377,7 +379,6 @@ body {
 .icons {
   display: flex;
   gap: 30px;
-  padding: 30px;
 }
 .social-icon-list {
   display: flex;
@@ -431,33 +432,41 @@ body {
   fill: var(--white-color);
 }
 .social-icon-link {
-  background-color: var(--bg-color);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
   width: 44px;
   height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 .social-icon-link:hover {
   background-color: var(--brand-color);
 }
 .social-list {
   display: flex;
+  gap: 10px;
 }
 .customers {
   padding: 94px 0;
 }
 .company-icon-list {
-  diplay: flex;
+  display: flex;
   justify-content: space-around;
   gap: 30px;
 }
 .company-icon-item {
   display: inline-block;
 }
+.company-icon {
+  fill: currentColor;
+}
+.company-icon:hover,
+.company-icon:focus {
+  fill: currentColor;
+}
 .company-link {
+  color: rgba(175, 177, 184, 1);
   width: 170px;
   height: 92px;
   display: inline-block;
@@ -468,6 +477,7 @@ body {
   padding: 16px 32px;
 }
 .company-link:hover {
+  color: var(--brand-color);
   border: 1px solid var(--brand-color);
   border-radius: 4px;
 }
