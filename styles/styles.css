@@ -417,6 +417,7 @@ body {
 .social-icon-list {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 30px;
 }
 .social-icon-item {
   display: inline-block;
